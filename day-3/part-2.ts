@@ -11,7 +11,7 @@ const slopes = [
   { x: 1, y: 2 }
 ]
 
-function isTreeInPostion (position: { x: number, y: number }): boolean {
+function isTreeInPostion (lines: string[], position: { x: number, y: number }): boolean {
   return lines[position.y][position.x % patternLength] === '#'
 }
 
@@ -20,7 +20,7 @@ function getEncounteredTreesBySlope (slope: { x: number, y: number }): number {
   const ourPositon = { x: 0, y: 0 }
 
   for (let i = 0; i < lines.length; i++) {
-    numberOfEncounteredTrees += isTreeInPostion(ourPositon) ? 1 : 0
+    numberOfEncounteredTrees += isTreeInPostion(lines, ourPositon) ? 1 : 0
     ourPositon.y += slope.y
     ourPositon.x += slope.x
 
