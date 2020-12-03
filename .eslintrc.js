@@ -1,7 +1,11 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   root: true,
-  extends: 'standard-with-typescript',
+  extends: [
+    'standard-with-typescript',
+    'prettier',
+    'prettier/@typescript-eslint'
+  ],
   parserOptions: {
     project: './tsconfig.json',
     sourceType: 'module'

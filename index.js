@@ -6,10 +6,4 @@ require('ts-node').register()
 
 console.log(`Running day-${dayNr} part-${partNr}...`)
 
-require(
-  path.resolve(
-    __dirname,
-    `day-${dayNr}`,
-    `part-${partNr}.ts`
-  )
-)
+require(path.resolve(__dirname, `day-${dayNr}`, `part-${partNr}.ts`))

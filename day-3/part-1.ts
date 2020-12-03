@@ -3,7 +3,10 @@ import { getLinesFromFile } from '../utils'
 const lines = getLinesFromFile(`${__dirname}/input.txt`)
 const patternLength = lines[0].length
 
-function isTreeInPostion (lines: string[], position: { x: number, y: number }): boolean {
+function isTreeInPostion(
+  lines: string[],
+  position: { x: number; y: number }
+): boolean {
   return lines[position.y][position.x % patternLength] === '#'
 }
 
@@ -16,6 +19,4 @@ for (let i = 0; i < lines.length; i++) {
   ourPositon.x += 3
 }
 
-console.log(
-  numberOfEncouterTrees
-)
+console.log(numberOfEncouterTrees)

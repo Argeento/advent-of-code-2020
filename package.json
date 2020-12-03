@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Solutions for Advent of Code 2020",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "format": "prettier --write ."
   },
   "keywords": [
     "advent-of-code",
@@ -16,11 +17,13 @@
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-config-standard-with-typescript": "^19.0.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.1.0",
+    "prettier": "2.2.1",
     "ts-node": "^9.0.0",
     "typescript": "^4.1.2"
   },
