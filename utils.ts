@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs'
 
 export function getLinesFromFile(file: string): string[] {
-  return readFileSync(file).toString().split('\r\n')
+  return readFileSync(file).toString().split('\n')
 }
 
 export function getNumbersFromFile(file: string): number[] {
