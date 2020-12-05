@@ -7,7 +7,8 @@ Solutions for [Advent of Code 2020](https://adventofcode.com/2020/) in TypeScrip
 |  1  |    [Report Repair][1]    | :star: | :star: |
 |  2  | [Password Philosophy][2] | :star: | :star: |
 |  3  | [Toboggan Trajectory][3] | :star: | :star: |
-|  4  |      Coming soon...      |        |        |
+|  4  | [Passport Processing][4] | :star: | :star: |
+|  5  |      Coming soon...      |        |        |
 
 
 ## How to run?
@@ -23,3 +24,4 @@ npm run start <day-nr> <part-nr>
 [1]: https://adventofcode.com/2020/day/1
 [2]: https://adventofcode.com/2020/day/2
 [3]: https://adventofcode.com/2020/day/3
+[4]: https://adventofcode.com/2020/day/4
