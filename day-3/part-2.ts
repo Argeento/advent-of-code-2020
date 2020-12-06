@@ -1,4 +1,4 @@
-import { getLinesFromFile } from '../utils'
+import { getLinesFromFile, multiply } from '../utils'
 
 const lines = getLinesFromFile(`${__dirname}/input.txt`)
 const patternLength = lines[0].length
@@ -33,10 +33,6 @@ function getEncounteredTreesBySlope(slope: { x: number; y: number }): number {
   }
 
   return numberOfEncounteredTrees
-}
-
-function multiply(acc: number, value: number): number {
-  return acc * value
 }
 
 console.log(slopes.map(getEncounteredTreesBySlope).reduce(multiply))
