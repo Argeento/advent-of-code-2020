@@ -3,8 +3,7 @@ import groups from './groups'
 import { add } from '../utils'
 
 const sumOfYesAnswers = groups
-  .map(group => {
-    const answers = group.split('\n')
+  .map(answers => {
     const numberOfPeople = answers.length
     const concatenatedAnswers = answers.join('')
     const uniqueAnswers = new Set(concatenatedAnswers)

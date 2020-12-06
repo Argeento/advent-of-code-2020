@@ -2,7 +2,7 @@ import groups from './groups'
 import { add } from '../utils'
 
 const sumOfYesAnswers = groups
-  .map(group => new Set(group.replace(/\n/g, '')).size)
+  .map(answers => new Set(answers.join('')).size)
   .reduce(add)
 
 console.log(sumOfYesAnswers)
