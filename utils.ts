@@ -7,3 +7,11 @@ export function getLinesFromFile(file: string): string[] {
 export function getNumbersFromFile(file: string): number[] {
   return getLinesFromFile(file).map(line => parseFloat(line))
 }
+
+export function add(a: number, b: number): number {
+  return a + b
+}
+
+export function multiply(a: number, b: number): number {
+  return a * b
+}
