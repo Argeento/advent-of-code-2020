@@ -12,7 +12,6 @@ axios(`https://adventofcode.com/2020/day/${dayNr}`).then(res => {
     .toString()
     .split('\n')
     .slice(0, -1)
-    .map(line => line.split('|'))
 
   const table = createTable(
     [
