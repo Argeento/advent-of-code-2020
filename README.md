@@ -10,7 +10,8 @@ Solutions for [Advent of Code 2020](https://adventofcode.com/2020/) in TypeScrip
 |  4  | [Passport Processing][4] | :star: | :star: |
 |  5  |   [Binary Boarding][5]   | :star: | :star: |
 |  6  |    [Custom Customs][6]   | :star: | :star: |
-|  7  |      Coming soon...      |        |        |
+|  7  |   [Handy Haversacks][7]  | :star: | :star: |
+|  8  |      Coming soon...      |        |        |
 
 
 ## How to run?
@@ -30,3 +31,4 @@ npm run start <day-nr> <part-nr>
 [4]: https://adventofcode.com/2020/day/4
 [5]: https://adventofcode.com/2020/day/5
 [6]: https://adventofcode.com/2020/day/6
+[7]: https://adventofcode.com/2020/day/7
