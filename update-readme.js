@@ -51,7 +51,7 @@ npm ci
 
 Run solution by day and part number:
 \`\`\`shell
-npm run start <day-nr> <part-nr>
+npm run day <day-nr> <part-nr>
 \`\`\`
 
 ${links.join('\n')}

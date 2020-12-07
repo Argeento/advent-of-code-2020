@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Solutions for Advent of Code 2020",
   "scripts": {
-    "start": "node index.js",
+    "day": "node index.js",
     "format": "prettier --write .",
     "update-readme": "node update-readme"
   },

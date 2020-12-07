@@ -22,7 +22,7 @@ npm ci
 
 Run solution by day and part number:
 ```shell
-npm run start <day-nr> <part-nr>
+npm run day <day-nr> <part-nr>
 ```
 
 [1]: https://adventofcode.com/2020/day/1
