@@ -5,7 +5,7 @@
   exactly one jmp or nop, you can repair the boot code and make it terminate
   correctly.
   
-The only way to get rid of infinitive loop is change `jpm` to `nop`.
+The only way to get rid of infinite loop is change `jpm` to `nop`.
 Lets look at commands' indexes which are executed (in my input these are): 
  
 ```
