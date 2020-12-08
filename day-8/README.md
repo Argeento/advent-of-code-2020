@@ -1,4 +1,4 @@
-# Explanation for part two
+# Explanation of Part Two
 
 > The program is supposed to terminate by **attempting to execute an
   instruction immediately after the last instruction in the file**. By changing
