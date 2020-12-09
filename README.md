@@ -12,7 +12,8 @@ Solutions for [Advent of Code 2020](https://adventofcode.com/2020/) in TypeScrip
 |  6  |    [Custom Customs][6]   | :star: | :star: |
 |  7  |   [Handy Haversacks][7]  | :star: | :star: |
 |  8  |   [Handheld Halting][8]  | :star: | :star: |
-|  9  |      Coming soon...      |        |        |
+|  9  |    [Encoding Error][9]   | :star: | :star: |
+|  10 |      Coming soon...      |        |        |
 
 
 ## How to run?
@@ -34,3 +35,4 @@ npm run day <day-nr> <part-nr>
 [6]: https://adventofcode.com/2020/day/6
 [7]: https://adventofcode.com/2020/day/7
 [8]: https://adventofcode.com/2020/day/8
+[9]: https://adventofcode.com/2020/day/9

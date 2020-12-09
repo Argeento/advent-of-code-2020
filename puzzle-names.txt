@@ -6,3 +6,4 @@ Binary Boarding
 Custom Customs
 Handy Haversacks
 Handheld Halting
+Encoding Error
