@@ -6,41 +6,5 @@
   correctly.
   
 The only way to get rid of infinite loop is change `jpm` to `nop`.
-Lets look at commands' indexes which are executed (in my input these are): 
- 
-```
-0
-1
-2
-3
-279
-280
-163
-164
-165
-166
-167
-179 <
-180
-181
-182
-...
-208
-209
-210 <-- return to 179
-179 <
-180
-181
-182
-...
-208
-209
-210 <-- return to 179
-179 <
-180
-181
-182
-...
-```
-
-Hence the `jmp` command that causes the infinite loop must have index 210
+Without any if statements in code, the jmp instruction that is broken,
+has a last instruction's index in Part One solution
