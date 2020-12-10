@@ -7,3 +7,4 @@ Custom Customs
 Handy Haversacks
 Handheld Halting
 Encoding Error
+Adapter Array
