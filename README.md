@@ -14,7 +14,8 @@ Solutions for [Advent of Code 2020](https://adventofcode.com/2020/) in TypeScrip
 |  8  |   [Handheld Halting][8]  | :star: | :star: |
 |  9  |    [Encoding Error][9]   | :star: | :star: |
 |  10 |    [Adapter Array][10]   | :star: | :star: |
-|  11 |      Coming soon...      |        |        |
+|  11 |   [Seating System][11]   | :star: | :star: |
+|  12 |      Coming soon...      |        |        |
 
 
 ## How to run?
@@ -38,3 +39,4 @@ npm run day <day-nr> <part-nr>
 [8]: https://adventofcode.com/2020/day/8
 [9]: https://adventofcode.com/2020/day/9
 [10]: https://adventofcode.com/2020/day/10
+[11]: https://adventofcode.com/2020/day/11
