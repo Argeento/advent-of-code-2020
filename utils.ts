@@ -21,6 +21,14 @@ export function multiply(a: number, b: number): number {
   return a * b
 }
 
+export function asc(a: any, b: any): number {
+  return a - b
+}
+
+export function desc(a: any, b: any): number {
+  return b - a
+}
+
 export function getManhatanDistance(
   positionA: Position,
   positionB: Position = { x: 0, y: 0 }

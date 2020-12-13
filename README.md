@@ -16,7 +16,8 @@ Solutions for [Advent of Code 2020](https://adventofcode.com/2020/) in TypeScrip
 |  10 |    [Adapter Array][10]   | :star: | :star: |
 |  11 |   [Seating System][11]   | :star: | :star: |
 |  12 |      [Rain Risk][12]     | :star: | :star: |
-|  13 |      Coming soon...      |        |        |
+|  13 |   [Shuttle Search][13]   | :star: | :star: |
+|  14 |      Coming soon...      |        |        |
 
 
 ## How to run?
@@ -42,3 +43,4 @@ npm run day <day-nr> <part-nr>
 [10]: https://adventofcode.com/2020/day/10
 [11]: https://adventofcode.com/2020/day/11
 [12]: https://adventofcode.com/2020/day/12
+[13]: https://adventofcode.com/2020/day/13
