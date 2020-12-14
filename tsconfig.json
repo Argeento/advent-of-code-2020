@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "target": "ES2020"
   }
 }
