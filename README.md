@@ -2,23 +2,24 @@
 Solutions for [Advent of Code 2020](https://adventofcode.com/2020/) in TypeScript
 
 ## Stars
-| Day |           Quest          | Part 1 | Part 2 |
-| :-: | :----------------------: | :----: | :----: |
-|  1  |    [Report Repair][1]    | :star: | :star: |
-|  2  | [Password Philosophy][2] | :star: | :star: |
-|  3  | [Toboggan Trajectory][3] | :star: | :star: |
-|  4  | [Passport Processing][4] | :star: | :star: |
-|  5  |   [Binary Boarding][5]   | :star: | :star: |
-|  6  |    [Custom Customs][6]   | :star: | :star: |
-|  7  |   [Handy Haversacks][7]  | :star: | :star: |
-|  8  |   [Handheld Halting][8]  | :star: | :star: |
-|  9  |    [Encoding Error][9]   | :star: | :star: |
-|  10 |    [Adapter Array][10]   | :star: | :star: |
-|  11 |   [Seating System][11]   | :star: | :star: |
-|  12 |      [Rain Risk][12]     | :star: | :star: |
-|  13 |   [Shuttle Search][13]   | :star: | :star: |
-|  14 |    [Docking Data][14]    | :star: | :star: |
-|  15 |      Coming soon...      |        |        |
+| Day |             Quest             | Part 1 | Part 2 |
+| :-: | :---------------------------: | :----: | :----: |
+|  1  |       [Report Repair][1]      | :star: | :star: |
+|  2  |    [Password Philosophy][2]   | :star: | :star: |
+|  3  |    [Toboggan Trajectory][3]   | :star: | :star: |
+|  4  |    [Passport Processing][4]   | :star: | :star: |
+|  5  |      [Binary Boarding][5]     | :star: | :star: |
+|  6  |      [Custom Customs][6]      | :star: | :star: |
+|  7  |     [Handy Haversacks][7]     | :star: | :star: |
+|  8  |     [Handheld Halting][8]     | :star: | :star: |
+|  9  |      [Encoding Error][9]      | :star: | :star: |
+|  10 |      [Adapter Array][10]      | :star: | :star: |
+|  11 |      [Seating System][11]     | :star: | :star: |
+|  12 |        [Rain Risk][12]        | :star: | :star: |
+|  13 |      [Shuttle Search][13]     | :star: | :star: |
+|  14 |       [Docking Data][14]      | :star: | :star: |
+|  15 | [Rambunctious Recitation][15] | :star: | :star: |
+|  16 |         Coming soon...        |        |        |
 
 
 ## How to run?
@@ -46,3 +47,4 @@ npm run day <day-nr> <part-nr>
 [12]: https://adventofcode.com/2020/day/12
 [13]: https://adventofcode.com/2020/day/13
 [14]: https://adventofcode.com/2020/day/14
+[15]: https://adventofcode.com/2020/day/15
