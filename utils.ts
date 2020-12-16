@@ -29,6 +29,10 @@ export function desc(a: any, b: any): number {
   return b - a
 }
 
+export function isInRange(min: number, value: number, max: number): boolean {
+  return value >= min && value <= max
+}
+
 export function getManhatanDistance(
   positionA: Position,
   positionB: Position = { x: 0, y: 0 }
