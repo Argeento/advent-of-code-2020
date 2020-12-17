@@ -20,7 +20,8 @@ Solutions for [Advent of Code 2020](https://adventofcode.com/2020/) in TypeScrip
 |  14 |       [Docking Data][14]      | :star: | :star: |
 |  15 | [Rambunctious Recitation][15] | :star: | :star: |
 |  16 |    [Ticket Translation][16]   | :star: | :star: |
-|  17 |         Coming soon...        |        |        |
+|  17 |       [Conway Cubes][17]      | :star: | :star: |
+|  18 |         Coming soon...        |        |        |
 
 
 ## How to run?
@@ -50,3 +51,4 @@ npm run day <day-nr> <part-nr>
 [14]: https://adventofcode.com/2020/day/14
 [15]: https://adventofcode.com/2020/day/15
 [16]: https://adventofcode.com/2020/day/16
+[17]: https://adventofcode.com/2020/day/17
