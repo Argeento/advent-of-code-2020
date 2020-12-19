@@ -6,8 +6,7 @@ const [rulesData, messagesData] = readFileSync(`${__dirname}/input.txt`)
 
 const rulesJSON = rulesData
   .replace(/"/g, '')
-  .replace(/(\d+):/g, '"$1":')
-  .replace(/: (.*)/g, ':"$1"')
+  .replace(/(\d+): (.*)/g, '"$1":"$2"')
   .replace(/\n/g, ',')
 
 export interface Rules {
