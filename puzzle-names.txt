@@ -16,3 +16,4 @@ Rambunctious Recitation
 Ticket Translation
 Conway Cubes
 Operation Order
+Monster Messages

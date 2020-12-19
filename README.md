@@ -22,7 +22,8 @@ Solutions for [Advent of Code 2020](https://adventofcode.com/2020/) in TypeScrip
 |  16 |    [Ticket Translation][16]   | :star: | :star: |
 |  17 |       [Conway Cubes][17]      | :star: | :star: |
 |  18 |     [Operation Order][18]     | :star: | :star: |
-|  19 |         Coming soon...        |        |        |
+|  19 |     [Monster Messages][19]    | :star: | :star: |
+|  20 |         Coming soon...        |        |        |
 
 
 ## How to run?
@@ -54,3 +55,4 @@ npm run day <day-nr> <part-nr>
 [16]: https://adventofcode.com/2020/day/16
 [17]: https://adventofcode.com/2020/day/17
 [18]: https://adventofcode.com/2020/day/18
+[19]: https://adventofcode.com/2020/day/19
