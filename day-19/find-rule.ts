@@ -1,12 +1,27 @@
 import { Rules } from './input'
 
-export function findRule(rules: Rules, ruleNr: string = '0'): string {
-  const rule = rules[ruleNr]
+const mem = {}
+export function findRule(
+  rules: Rules,
+  ruleNr: string = '0',
+  depth: number = 0
+): string {
+  if (depth++ > 35) return ''
+  if (mem[ruleNr]) return mem[ruleNr]
 
-  if (rule === 'a' || rule === 'b') {
-    return rule
+  const originalRule = rules[ruleNr]
+  let rule: string
+
+  if (originalRule === 'a' || originalRule === 'b') {
+    rule = originalRule
   } else {
-    const preRegex = rule.replace(/\d+/g, rule => findRule(rules, rule))
-    return `(${preRegex})`.replace(/ /g, '')
+    const preRegex = originalRule.replace(/\d+/g, rule => {
+      return findRule(rules, rule, depth + 1)
+    })
+
+    rule = `(${preRegex})`.replace(/ /g, '')
   }
+
+  mem[ruleNr] = rule
+  return rule
 }
