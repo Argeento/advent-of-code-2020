@@ -1,6 +1,7 @@
 import { readFileSync } from 'fs'
 
-export interface Position {
+interface Array2d extends Array<any[]> {}
+export interface Position2d {
   x: number
   y: number
 }
@@ -33,9 +34,46 @@ export function isInRange(min: number, value: number, max: number): boolean {
   return value >= min && value <= max
 }
 
+export function deepCopy<T>(obj: T): T {
+  return JSON.parse(JSON.stringify(obj))
+}
+
+export function rotateClockwise(arr: Array2d): Array2d {
+  const copy = deepCopy<Array2d>(arr)
+  const n = copy.length
+  const x = Math.floor(n / 2)
+  const y = n - 1
+
+  for (let i = 0; i < x; i++) {
+    for (let j = i; j < y - i; j++) {
+      const tmp = copy[i][j]
+      copy[i][j] = copy[y - j][i]
+      copy[y - j][i] = copy[y - i][y - j]
+      copy[y - i][y - j] = copy[j][y - i]
+      copy[j][y - i] = tmp
+    }
+  }
+
+  return copy
+}
+
+export function flipX(arr: Array2d): Array2d {
+  let copy = deepCopy<Array2d>(arr)
+  copy = copy.map(row => row.reverse())
+
+  return copy
+}
+
+export function flipY(arr: Array2d): Array2d {
+  let copy = deepCopy<Array2d>(arr)
+  copy = copy.reverse()
+
+  return copy
+}
+
 export function getManhatanDistance(
-  positionA: Position,
-  positionB: Position = { x: 0, y: 0 }
+  positionA: Position2d,
+  positionB: Position2d = { x: 0, y: 0 }
 ): number {
   return (
     Math.abs(positionA.x - positionB.x) + Math.abs(positionA.y - positionB.y)
